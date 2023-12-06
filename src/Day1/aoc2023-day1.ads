@@ -45,13 +45,6 @@ private
      (Text : in String;
       Out_Digit : out Natural) 
       return Boolean;
-     
-   -----------------------------------------------------------------------------
-
-   function Is_Character_A_Digit
-     (Char : in Character;
-      Out_Digit : out Natural)
-      return Boolean;
 
    -----------------------------------------------------------------------------
 
