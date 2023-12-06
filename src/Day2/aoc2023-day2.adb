@@ -1,5 +1,4 @@
 with Ada.Text_IO;
-with Ada.Strings.Unbounded;
 
 package body AoC2023.Day2 is
 
