@@ -111,7 +111,7 @@ package body AoC2023.Day1 is
    procedure Run 
    is
       package UString renames Ada.Strings.Unbounded;
-      Input_File_Paths : array (1 .. 2) of UString.Unbounded_String := 
+      Input_File_Paths : array (Natural range <>) of UString.Unbounded_String := 
         (UString.To_Unbounded_String (Source => "Day1/Day1Part1.txt"), 
          UString.To_Unbounded_String (Source => "Day1/Day1Part2.txt"));
    begin
